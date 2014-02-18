@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<drawable name="screen_background_white">#FFFFFFFF</drawable>
+<drawable name="screen_foreground_black">#FF000000</drawable>
+
+<color name="RED">#FFFF0000</color>
+<color name="GREEN">#FF00FF00</color>
+<color name="DARK_GREEN">#FF00AA00</color>
+<color name="LIGHT_GREEN">#FF80FF80</color>
+<color name="BLUE">#FF0000FF</color>
+<color name="LIGHT_BLUE">#FF8080FF</color>
+<color name="GRAY">#FF888888</color>
+<color name="LIGHT_GRAY">#FFE8E8E8</color>
+<color name="MED_GRAY">#B3B3B3</color>
+<color name="DARK_GRAY">#FF666666</color>
+<color name="DARKER_GRAY">#3B3B3B</color>
+<color name="MEDIUM_GRAY">#FFCACACA</color>
+<color name="WHITE">#FFFFFFFF</color>
+<color name="BLACK">#FF000000</color>
+<color name="ORANGE">#FFCC9933</color>
+<color name="transparent_black">#00000000</color>
+
+</resources>

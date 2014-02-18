@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">scTablet</string>
+    <string name="action_settings">Settings</string>
+    <string name="wechat">WeChat</string>
+    <string name="family">Family</string>
+    <string name="tools">Tools</string>
+</resources>
