@@ -10,9 +10,14 @@ import android.view.View;
 public abstract class BaseFragment extends Fragment {
 	private MainActivity m_activity;
 	protected View m_contentView;
-	protected Intent m_intent;
+	private Intent m_intent;
 
+	// getters	
 	public abstract Integer id();
+	public Intent getIntent() { return m_intent; }
+	
+	// setters
+	protected void intent(Intent v) { m_intent = v; }
 	
 	@Override public void onAttach(Activity activity) {
 		super.onAttach(activity);

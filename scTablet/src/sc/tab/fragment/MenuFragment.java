@@ -21,8 +21,7 @@ public class MenuFragment extends BaseFragment {
 		((Button)findViewById(R.id.wechat_btn)).setOnClickListener(new OnClickListener() {
 			@Override public void onClick(View v) {
 				Intent intent = new Intent();
-				intent.putExtra(IntentExtrasKeys.FRAGMENT_DATA, "WeChat is clicked!");
-				activity().startContentFragment(intent, MenuFragment.this);
+				activity().startSendToWXFragment(intent, MenuFragment.this);
 			}
 		});
 		

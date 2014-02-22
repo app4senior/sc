@@ -14,14 +14,14 @@ public class ContentFragment extends BaseFragment {
 	}
 	
 	public void init(Intent v) {
-		m_intent = v;
+		intent(v);
 	}
 	
 	@Override public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		m_contentView = inflater.inflate(R.layout.main_content, null);
-		if (m_intent != null) {
-			String content = m_intent.getStringExtra(IntentExtrasKeys.FRAGMENT_DATA);
+		if (getIntent() != null) {
+			String content = getIntent().getStringExtra(IntentExtrasKeys.FRAGMENT_DATA);
 			((TextView)findViewById(R.id.content_text)).setText(content);
 		}
 		return m_contentView;
